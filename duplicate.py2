@@ -1,0 +1,7 @@
+def duplicate(list):
+    for i in list:
+        b=list.count(i)
+    print(f'{i} is repeating {b} times')
+a=eval(input("enter a list:"))
+print(duplicate(a))
+        
